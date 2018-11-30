@@ -1,0 +1,53 @@
+/* Style sheet for the main pages, not specific stories */
+
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.main_content
+{
+    margin: 1rem;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant: small-caps;
+    margin: 0;
+}
+
+h1
+{
+    font-size: 2rem;
+}
+
+h2
+{
+    font-size: 1.5rem;
+}
+h3
+{
+    font-size: 1.25rem;
+}
+
+img
+{
+    width: 30%;
+}
+
+img.main_logo
+{
+    width: 100%;
+}
+
+@media screen and (max-width: 600px)
+{
+    img
+    {
+        width: 100%;
+    }
+}
+
