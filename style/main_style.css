@@ -44,6 +44,16 @@ img
     width: 30%;
 }
 
+img.left
+{
+    float: left;
+}
+
+img.right
+{
+    float:right
+}
+
 img.main_logo
 {
     width: 100%;
@@ -54,6 +64,7 @@ img.main_logo
     img
     {
         width: 100%;
+        float: none;
     }
 }
 
