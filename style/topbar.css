@@ -21,6 +21,7 @@ div.hamburger
     position: fixed;
     top: 0;
     opacity: .97;
+    z-index: 1;
   }
   
   .topnav a {

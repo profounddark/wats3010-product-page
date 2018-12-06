@@ -26,9 +26,11 @@
           <script src="./javascript/topbar.js"></script>
 
           <div class="topnav" id="myTopnav">
-              <a href="#intro" class="active">API Superstore</a>
+              <a href="#front" class="active">API Superstore</a>
+              <a href="#intro">Introduction</a>
               <a href="#features">Features</a>
               <a href="#testimonials">Testimonials</a>
+              <a href="#contactus">Contact Us</a>
               <a href="javascript:void(0);" class="icon" onclick="topBar_display()">
                 <div class="hamburger"></div>
                 <div class="hamburger"></div>
@@ -39,18 +41,28 @@
   
      <!-- Main Body content -->
      <div class="main_content">
-          <section id="intro" class="intro">
-               <h1> What is the API Superstore?</h1>
+
+          <section id="front" class="front">
+               <h1 class="main_logo">Welcome to the</h1>
                <img class="main_logo"src="./assets/logos/api_superstore_logo_bg.png">
-               <p>The API Superstore provides a catalog of third-party APIs that you can use to enhance your business. From e-commerce to maps, API Superstore lists all of the services that customers expect and saves you the headache of sorting it out yourself! The longer you wait, the longer you’re not making more money and happier users!</p>
-          
-               <h2>Click, Click, Code!</h2>
-               <iframe src="https://www.youtube.com/embed/L48g1ZWLMdo"></iframe>
+               
           </section>
 
+          <!-- Intro Section -->
+          <section id="intro" class="intro">
+               <h1> What is the API Superstore?</h1>
+               <p>The API Superstore provides a catalog of third-party APIs that you can use to enhance your business. From e-commerce to maps, API Superstore lists all of the services that customers expect and saves you the headache of sorting it out yourself! The longer you wait, the longer you’re not making more money and happier users!</p>
+          
+               <div class="video-window">
+                    <iframe src="https://www.youtube.com/embed/L48g1ZWLMdo"></iframe>
+               </div>
+               <h2>Click, Click, Code!</h2>
+          </section>
+
+          <!-- Features Section -->
           <section id="features" class="features">
-               
                <h1>Features</h1>
+               <img class="left" src="./assets/misc/screen2.png">
                <h2>All the APIs, All the Time!</h2>
                <p>The API Superstore provides these great features:</p>
                
@@ -62,15 +74,22 @@
                </ul>
           </section>
 
+          <!-- Testimonials Section -->
           <section id="testimonials" class="testimonials">
-               <img class="right" src="./assets/misc/screen1.png">
-               <h1>Product Testimonials</h1>
+               
+               <h1>Testimonials</h1>
+               <img class="right" src="./assets/misc/screen2.png">
                <p>The following are a few testimonials about how some of our customers have appreciate the API Superstore:</p>
                <ul>
                     <li>“This is the best website ever!”<br>C. P. Yu, AmazingSite.com</li>
                     <li>“I have really admired the way the API Superstore team has created a truly divine interface for browsing all that information that’s out there online for free. For a low monthly fee, I’m able to more easily keep up with the churn of information that makes application development so difficult, and API Superstore makes my world so much happier! Please don’t stop the rocking!”<br>Amy Zon, Massive Anonymous Customer</li>
                     <li>“Once again, I’m blown away by the amazing offerings of the API Superstore. You really are SUPER!”<br>Clara Cache</li>
                </ul>
+          </section>
+
+          <!-- Contact Us Section -->
+          <section id="contactus" class="contactus">
+
           </section>
      </div>
      
