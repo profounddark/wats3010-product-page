@@ -5,11 +5,13 @@ body
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 div.main_content
 {
-    margin: 1rem;
+    margin-top: 3rem;
+    font-size: 1.5rem;
 }
 
 h1, h2, h3, h4, h5, h6
@@ -21,22 +23,33 @@ h1, h2, h3, h4, h5, h6
 
 h1
 {
-    font-size: 2rem;
+    font-size: 200%;
 
 }
 
 h2
 {
-    font-size: 1.5rem;
+    font-size: 125%;
 }
 h3
 {
-    font-size: 1.25rem;
+    font-size: 125%;
 }
 
 iframe
 {
 
+}
+
+section
+{
+    background-color: lightgreen;
+    margin: 0;
+    padding: 1rem;
+}
+section:nth-of-type(2)
+{
+    background-color: lightseagreen;
 }
 
 img
@@ -68,3 +81,7 @@ img.main_logo
     }
 }
 
+.intro
+{
+    text-align: center;
+}

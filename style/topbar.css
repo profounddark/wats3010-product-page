@@ -14,15 +14,19 @@ div.hamburger
 .topnav
   {
     overflow: hidden;
-    background-color: #333;
+    background-color: darkgreen;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     font-variant: small-caps;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    opacity: .97;
   }
   
   .topnav a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: white;
     text-align: center;
     padding: 1rem;
     text-decoration: none;
@@ -30,12 +34,12 @@ div.hamburger
   }
   
   .topnav a:hover {
-    background-color: #ddd;
+    background-color: #55dd55;
     color: black;
   }
   
   .active {
-    background-color: lightslategray;
+    background-color: #33aa33;
     color: black;
   }
   
