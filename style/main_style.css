@@ -94,6 +94,31 @@ img.right
     width: 100%;
 }
 
+.intro
+{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.intro p
+{
+    padding: 0 10%;
+}
+
+.features
+{
+    font-size: 1.75rem;
+}
+
+.features ul
+{
+    list-style-type: none;
+}
+
+.testimonials
+{
+    font-size: 1.25rem;
+}
 
 @media screen and (max-width: 600px)
 {
@@ -102,19 +127,9 @@ img.right
         width: 100%;
         float: none;
     }
-}
 
-.intro
-{
-    text-align: center;
-}
-
-.features
-{
-    font-size: 1.75rem;
-}
-
-.testimonials
-{
-    font-size: 1.25rem;
+    .intro p
+    {
+        padding: 0 0;
+    }
 }
