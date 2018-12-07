@@ -1,4 +1,4 @@
-/* Style sheet for the main pages, not specific stories */
+/* Style sheet for the product page */
 
 body
 {
@@ -60,7 +60,7 @@ h3
 section
 {
     background-color: lightgreen;
-    margin: -2rem 0 2rem 0;
+    margin: -2rem 0 1rem 0;
     padding: 3rem 1rem 2rem 1rem;
 
 }
@@ -147,11 +147,42 @@ img.right
     font-size: 1.25rem;
 }
 
+.contactus
+{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contactus ul
+{
+    list-style-type: none;
+    padding: 0;
+}
+
+.contactus ul.contactinfo li, .contactus ul.socialmedia li a
+{
+    padding: .5rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.contactus ul li a img
+{
+    height: 2rem;
+    width: auto;
+}
+
 @media screen and (max-width: 600px)
 {
     img
     {
-        width: 100%;
+        width: 90%;
         float: none;
     }
 
@@ -159,4 +190,10 @@ img.right
     {
         padding: 0 0;
     }
+
+    .contactus
+    {
+    flex-flow: column nowrap;
+    }
 }
+
