@@ -62,7 +62,7 @@ section
     background-color: lightgreen;
     margin: -2rem 0 1rem 0;
     padding: 3rem 1rem 2rem 1rem;
-    
+    width: 100%;
 
 }
 section:nth-of-type(even)
