@@ -126,6 +126,16 @@ img.right
     padding: 0;
 }
 
+.features ul li
+{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+
 .testimonials
 {
     font-size: 1.25rem;
