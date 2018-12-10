@@ -39,6 +39,12 @@ h3
     font-size: 125%;
 }
 
+a
+{
+    color: inherit;
+    text-decoration: inherit;
+}
+
 .video-window
 {
     position: relative;
@@ -193,8 +199,6 @@ p.quote
     flex-flow: row nowrap;
     justify-content: flex-start;
     align-items: center;
-    color: inherit;
-    text-decoration: inherit;
 }
 
 .contactus ul li a img
